@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import { Box, Stack } from "@chakra-ui/react";
 import Header from "./Header";
+import Footer from "./Footer";
 
 type LayoutProps = {
   children: ReactNode;
@@ -27,6 +28,7 @@ const Layout = ({ children }: LayoutProps) => {
         <Box as="main" layerStyle="layoutBlock">
           {children}
         </Box>
+        <Footer />
       </Stack>
     </Box>
   );
