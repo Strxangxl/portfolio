@@ -1,4 +1,4 @@
-import { Divider, Grid, Link, Stack, Text } from "@chakra-ui/react";
+import { Divider, Link, Stack, Text } from "@chakra-ui/react";
 
 const Footer = () => {
   return (
