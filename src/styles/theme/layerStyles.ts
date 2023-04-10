@@ -1,6 +1,6 @@
 import type { SystemStyleObjectRecord } from "@chakra-ui/react";
 
-export const layer: SystemStyleObjectRecord = {
+export const layerStyles: SystemStyleObjectRecord = {
   layoutBlock: {
     marginX: "auto",
     width: "full",
@@ -15,5 +15,12 @@ export const layer: SystemStyleObjectRecord = {
       md: 2,
       lg: 0,
     },
+  },
+  glow: {
+    filter: "drop-shadow(0 0 12px #454a58)",
+  },
+  "blur-bg": {
+    backdropFilter: "blur(6px)",
+    WebkitBackdropFilter: "blur(6px)",
   },
 };

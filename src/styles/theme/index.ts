@@ -2,15 +2,19 @@ import { extendTheme } from "@chakra-ui/react";
 import { colors } from "./colors";
 import { config } from "./config";
 import { fonts } from "./fonts";
-import { layer } from "./layer";
+import { layerStyles } from "./layerStyles";
 import { styles } from "./styles";
+import { semanticTokens} from "./semanticTokens";
+import { components } from "./components";
 
 const theme = extendTheme({
   colors,
   config,
   fonts,
-  layer,
-//   styles,
+  layerStyles,
+  semanticTokens,
+  styles,
+  components
 });
 
 export default theme;
