@@ -3,6 +3,7 @@ import Head from "next/head";
 
 import HeroSection from "@/components/HeroSection";
 import ProjectsSection from "@/components/ProjectsSection";
+import Test from "@/lib/Test";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Box marginTop={-24}>
         <HeroSection />
         <ProjectsSection />
+        <Test />
       </Box>
     </>
   );
