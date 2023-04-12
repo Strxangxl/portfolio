@@ -17,7 +17,6 @@ const Home = () => {
       <Box marginTop={-24}>
         <HeroSection />
         <ProjectsSection />
-        <Test />
       </Box>
     </>
   );

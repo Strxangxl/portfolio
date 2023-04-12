@@ -15,7 +15,7 @@ type Props = {
 };
 
 export default function Test({ projects }: Props) {
-  // console.log(projects);
+  console.log(projects);
   return <h1>test</h1>;
 }
 
