@@ -12,8 +12,6 @@
     "@chakra-ui/react": "^2.5.5",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
-    "@sanity/client": "^5.4.2",
-    "@sanity/types": "^3.8.3",
     "@types/node": "18.15.11",
     "@types/react": "18.0.31",
     "@types/react-dom": "18.0.11",
@@ -22,10 +20,6 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.8.0",
-    "spotify-web-api-js": "^1.5.2",
     "typescript": "5.0.3"
-  },
-  "devDependencies": {
-    "@sanity/cli": "^3.8.3"
   }
 }
