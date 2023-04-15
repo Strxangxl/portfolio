@@ -4,6 +4,13 @@ import Head from "next/head";
 import HeroSection from "@/components/HeroSection";
 import ProjectsSection from "@/components/ProjectsSection";
 
+interface Post {
+  date: string;
+  title: string;
+  url: string;
+  // Add more properties if necessary
+}
+
 const Home = () => {
   return (
     <>
