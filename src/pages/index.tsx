@@ -6,7 +6,6 @@ import HeroSection from "@/components/HeroSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import type { Project } from "contentlayer/generated";
 import { allProjects } from "contentlayer/generated"
-// import type { HomeProps } from "./types";
 
 type HomeProps = {
   projects: Project[]
