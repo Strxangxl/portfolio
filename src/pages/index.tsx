@@ -1,17 +1,18 @@
+import { GetStaticProps } from "next"
 import { Box } from "@chakra-ui/react";
 import Head from "next/head";
 
 import HeroSection from "@/components/HeroSection";
 import ProjectsSection from "@/components/ProjectsSection";
+import type { Project } from "contentlayer/generated";
+import { allProjects } from "contentlayer/generated"
+// import type { HomeProps } from "./types";
 
-interface Post {
-  date: string;
-  title: string;
-  url: string;
-  // Add more properties if necessary
+type HomeProps = {
+  projects: Project[]
 }
 
-const Home = () => {
+const Home = ({ projects }: HomeProps) => {
   return (
     <>
       <Head>
@@ -22,10 +23,19 @@ const Home = () => {
       </Head>
       <Box marginTop={-24}>
         <HeroSection />
-        <ProjectsSection />
+        <ProjectsSection projects={projects} />
       </Box>
     </>
   );
 };
+
+export const getStaticProps: GetStaticProps = async () => {
+  const projects = await allProjects.filter((project) => project.highlight && project)
+  return {
+    props: {
+      projects
+    }
+  }
+}
 
 export default Home;
