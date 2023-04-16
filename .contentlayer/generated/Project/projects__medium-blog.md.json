@@ -1,0 +1,27 @@
+{
+  "title": "medium-blog",
+  "description": "Clone site of medium blog site",
+  "highlight": true,
+  "featured": true,
+  "stacks": [
+    "nextjs",
+    "material-ui",
+    "typescript"
+  ],
+  "projectLink": "https://medium-blog-sanity-clone.vercel.app/",
+  "thumbnail": "/screen2.png",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "projects/medium-blog.md",
+  "_raw": {
+    "sourceFilePath": "projects/medium-blog.md",
+    "sourceFileName": "medium-blog.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/medium-blog"
+  },
+  "type": "Project",
+  "id": "medium-blog"
+}

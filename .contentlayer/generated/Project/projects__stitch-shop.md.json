@@ -1,0 +1,26 @@
+{
+  "title": "stitchshop",
+  "description": "A fully functional full stack ecommerce site",
+  "highlight": true,
+  "featured": true,
+  "stacks": [
+    "react",
+    "material-ui"
+  ],
+  "projectLink": "https://stitch-shop.vercel.app/",
+  "thumbnail": "/screen.png",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "projects/stitch-shop.md",
+  "_raw": {
+    "sourceFilePath": "projects/stitch-shop.md",
+    "sourceFileName": "stitch-shop.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/stitch-shop"
+  },
+  "type": "Project",
+  "id": "stitch-shop"
+}

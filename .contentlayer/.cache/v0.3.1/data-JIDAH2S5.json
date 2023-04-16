@@ -1,0 +1,67 @@
+{
+  "cacheItemsMap": {
+    "projects/medium-blog.md": {
+      "document": {
+        "title": "medium-blog",
+        "description": "Clone site of medium blog site",
+        "highlight": true,
+        "featured": true,
+        "stacks": [
+          "nextjs",
+          "material-ui",
+          "typescript"
+        ],
+        "projectLink": "https://medium-blog-sanity-clone.vercel.app/",
+        "thumbnail": "/screen2.png",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "projects/medium-blog.md",
+        "_raw": {
+          "sourceFilePath": "projects/medium-blog.md",
+          "sourceFileName": "medium-blog.md",
+          "sourceFileDir": "projects",
+          "contentType": "markdown",
+          "flattenedPath": "projects/medium-blog"
+        },
+        "type": "Project",
+        "id": "medium-blog"
+      },
+      "documentHash": "1681562381084",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/stitch-shop.md": {
+      "document": {
+        "title": "stitchshop",
+        "description": "A fully functional full stack ecommerce site",
+        "highlight": true,
+        "featured": true,
+        "stacks": [
+          "react",
+          "material-ui"
+        ],
+        "projectLink": "https://stitch-shop.vercel.app/",
+        "thumbnail": "/screen.png",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "projects/stitch-shop.md",
+        "_raw": {
+          "sourceFilePath": "projects/stitch-shop.md",
+          "sourceFileName": "stitch-shop.md",
+          "sourceFileDir": "projects",
+          "contentType": "markdown",
+          "flattenedPath": "projects/stitch-shop"
+        },
+        "type": "Project",
+        "id": "stitch-shop"
+      },
+      "documentHash": "1681562335398",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    }
+  }
+}
