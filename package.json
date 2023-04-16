@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "contentlayer && next build",
     "start": "next start",
-    "lint": "next lint",
-    "contentlayer": "contentlayer"
+    "lint": "next lint"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.5.5",
