@@ -1,10 +1,17 @@
-import { Link } from '@chakra-ui/react'
-import React from 'react'
+import { Link } from "@chakra-ui/react";
+import type { Project } from "contentlayer/generated";
+import ProjectDetailContent from "./Content"
 
-const ProjectDetailWrapper = () => {
-  return (
-    <div>ProjectDetailWrapper</div>
-  )
-}
+type ProjectDetailWrapperProps = {
+  projectData: Project;
+  source: string;
+};
 
-export default ProjectDetailWrapper
+const ProjectDetailWrapper = ({
+  projectData,
+  source,
+}: ProjectDetailWrapperProps) => {
+  return <ProjectDetailContent projectData={projectData} />;
+};
+
+export default ProjectDetailWrapper;
