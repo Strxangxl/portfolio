@@ -24,7 +24,7 @@ const Header = () => {
 
         <Spacer />
         <Flex alignItems="center" gap={4}>
-          <Flex display={["none", "flex"]}>
+          <Flex display="flex">
             <Navigation />
           </Flex>
 

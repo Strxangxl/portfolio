@@ -9,7 +9,7 @@ const ProjectsSection = ({ projects }: ProjectSectionProps) => {
   return (
     <Stack>
       <Link href="/projects">
-        <Heading as="h1" size="lg" cursor="pointer" marginBottom={2}>
+        <Heading as="h1" size="lg" cursor="pointer" marginBottom={8}>
           Projects
         </Heading>
       </Link>

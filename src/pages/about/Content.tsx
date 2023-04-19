@@ -10,7 +10,7 @@ const Content = () => {
 
   return (
     <>
-      <Heading size="lg">Yo, how are you?</Heading>
+      <Heading size="lg" marginTop={10}>Yo, how are you?</Heading>
       <Text {...{ ...textProps, textColor }}>
         Hi, I&apos;m Ratan, a junior frontend developer currently seeking
         full-time opportunities. I'm always learning and striving to improve.
