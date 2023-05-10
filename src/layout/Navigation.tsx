@@ -1,7 +1,7 @@
 import { IconButton } from "@chakra-ui/react";
 import Link from "next/link";
 import type { IconType } from "react-icons";
-import { FaHome, FaUser } from "react-icons/fa";
+import { FaHome, FaUser, FaRocket } from "react-icons/fa";
 
 type NavItemProps = {
   href: string;
@@ -31,6 +31,11 @@ const navigations: NavItemProps[] = [
     href: "/",
     label: "Home",
     icon: FaHome,
+  },
+  {
+    href: "/projects",
+    label: "Projects",
+    icon: FaRocket,
   },
   {
     href: "/about",
