@@ -5,9 +5,13 @@ const Footer = () => {
     <Stack as="footer" layerStyle="layoutBlock" spacing={8}>
       <Divider />
 
-      <Text fontSize={['xs', 'sm']}>
-        &copy; 2023 - {new Date().getFullYear() + 1}{' '}
-        <Link href="https://github.com/Strxangxl" target="_blank">
+      <Text fontSize={["xs", "sm"]}>
+        &copy; 2023 - {new Date().getFullYear() + 1}{" "}
+        <Link
+          href="https://github.com/Strxangxl"
+          target="_blank"
+          textDecoration="underline"
+        >
           Ratandeep Singh
         </Link>
       </Text>

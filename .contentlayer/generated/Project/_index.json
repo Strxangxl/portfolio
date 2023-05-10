@@ -1,14 +1,33 @@
 [
   {
+    "title": "stitchshop",
+    "description": "A fully functional full stack ecommerce site",
+    "highlight": true,
+    "featured": true,
+    "stacks": ["react", "material-ui"],
+    "projectLink": "https://stitch-shop.vercel.app/",
+    "thumbnail": "/screen.png",
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "projects/stitch-shop.md",
+    "_raw": {
+      "sourceFilePath": "projects/stitch-shop.md",
+      "sourceFileName": "stitch-shop.md",
+      "sourceFileDir": "projects",
+      "contentType": "markdown",
+      "flattenedPath": "projects/stitch-shop"
+    },
+    "type": "Project",
+    "id": "stitch-shop"
+  },
+  {
     "title": "medium-blog",
     "description": "Clone site of medium blog site",
     "highlight": true,
     "featured": true,
-    "stacks": [
-      "nextjs",
-      "material-ui",
-      "typescript"
-    ],
+    "stacks": ["nextjs", "material-ui", "typescript"],
     "projectLink": "https://medium-blog-sanity-clone.vercel.app/",
     "thumbnail": "/screen2.png",
     "body": {
@@ -27,29 +46,26 @@
     "id": "medium-blog"
   },
   {
-    "title": "stitchshop",
-    "description": "A fully functional full stack ecommerce site",
+    "title": "Clean UI",
+    "description": "A Practise Project",
     "highlight": true,
     "featured": true,
-    "stacks": [
-      "react",
-      "material-ui"
-    ],
-    "projectLink": "https://stitch-shop.vercel.app/",
-    "thumbnail": "/screen.png",
+    "stacks": ["nextjs", "typescript", "chakra-ui"],
+    "projectLink": "https://assignment-iota-sooty.vercel.app/",
+    "thumbnail": "/screen3.png",
     "body": {
       "raw": "",
       "html": ""
     },
-    "_id": "projects/stitch-shop.md",
+    "_id": "projects/airbnb-clone.md",
     "_raw": {
-      "sourceFilePath": "projects/stitch-shop.md",
-      "sourceFileName": "stitch-shop.md",
+      "sourceFilePath": "projects/airbnb-clone.md",
+      "sourceFileName": "airbnb-clone.md",
       "sourceFileDir": "projects",
       "contentType": "markdown",
-      "flattenedPath": "projects/stitch-shop"
+      "flattenedPath": "projects/airbnb-clone"
     },
     "type": "Project",
-    "id": "stitch-shop"
+    "id": "airbnb-clone"
   }
 ]

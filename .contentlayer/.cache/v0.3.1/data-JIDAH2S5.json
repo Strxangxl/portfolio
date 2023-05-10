@@ -1,5 +1,37 @@
 {
   "cacheItemsMap": {
+    "projects/airbnb-clone.md": {
+      "document": {
+        "title": "Clean UI",
+        "description": "A Practise Project",
+        "highlight": true,
+        "featured": true,
+        "stacks": [
+          "nextjs",
+          "typescript",
+          "chakra-ui"
+        ],
+        "projectLink": "https://assignment-iota-sooty.vercel.app/",
+        "thumbnail": "/screen3.png",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "projects/airbnb-clone.md",
+        "_raw": {
+          "sourceFilePath": "projects/airbnb-clone.md",
+          "sourceFileName": "airbnb-clone.md",
+          "sourceFileDir": "projects",
+          "contentType": "markdown",
+          "flattenedPath": "projects/airbnb-clone"
+        },
+        "type": "Project",
+        "id": "airbnb-clone"
+      },
+      "documentHash": "1683735963346",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
     "projects/medium-blog.md": {
       "document": {
         "title": "medium-blog",
