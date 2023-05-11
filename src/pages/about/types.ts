@@ -5,3 +5,5 @@ export type MotionLinkProps = {
   url: string;
   icon: IconType;
 };
+
+export default MotionLinkProps;

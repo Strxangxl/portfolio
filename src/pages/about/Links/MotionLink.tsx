@@ -3,7 +3,7 @@ import * as React from "react";
 
 import MotionBox from "@/components/motion/MotionBox";
 
-import type { MotionLinkProps } from "../types";
+import type MotionLinkProps from "../types";
 
 const childAnimationProps = {
   variants: {
