@@ -1,5 +1,5 @@
-import Content from "./Content";
-import Links from "./Links";
+import Content from "../../components/Description";
+import Links from "../../components/Links";
 
 const About = () => {
   return (

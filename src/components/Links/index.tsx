@@ -3,8 +3,8 @@ import Head from "next/head";
 import MotionBox from "@/components/motion/MotionBox";
 import MotionFlex from "@/components/motion/MotionFlex";
 
-import socialLinks from "./constants";
-import MotionLink from "./MotionLink";
+import socialLinks from "../../types/constants";
+import MotionLink from "../motion/MotionLink";
 
 const wrapperAnimationProps = {
   variants: {
