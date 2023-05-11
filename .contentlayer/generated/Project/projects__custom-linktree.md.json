@@ -1,0 +1,26 @@
+{
+  "title": "Custom Linktree",
+  "description": "A Custom Linktree",
+  "highlight": false,
+  "featured": true,
+  "stacks": [
+    "nextjs",
+    "framer"
+  ],
+  "projectLink": "https://custom-linktree.vercel.app/",
+  "thumbnail": "",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "projects/custom-linktree.md",
+  "_raw": {
+    "sourceFilePath": "projects/custom-linktree.md",
+    "sourceFileName": "custom-linktree.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/custom-linktree"
+  },
+  "type": "Project",
+  "id": "custom-linktree"
+}

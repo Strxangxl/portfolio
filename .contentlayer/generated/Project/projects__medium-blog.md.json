@@ -5,8 +5,7 @@
   "featured": true,
   "stacks": [
     "nextjs",
-    "material-ui",
-    "typescript"
+    "tailwindcss"
   ],
   "projectLink": "https://medium-blog-sanity-clone.vercel.app/",
   "thumbnail": "/screen2.png",

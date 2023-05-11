@@ -1,33 +1,91 @@
 [
   {
-    "title": "stitchshop",
-    "description": "A fully functional full stack ecommerce site",
-    "highlight": true,
+    "title": "Airbnb Clone",
+    "description": "Airbnb Clone",
+    "highlight": false,
     "featured": true,
-    "stacks": ["react", "material-ui"],
-    "projectLink": "https://stitch-shop.vercel.app/",
-    "thumbnail": "/screen.png",
+    "stacks": [
+      "nextjs",
+      "tailwindcss"
+    ],
+    "projectLink": "https://airbnb-clone-two-mauve.vercel.app/",
+    "thumbnail": "/screen4.png",
     "body": {
       "raw": "",
       "html": ""
     },
-    "_id": "projects/stitch-shop.md",
+    "_id": "projects/airbnb-clone.md",
     "_raw": {
-      "sourceFilePath": "projects/stitch-shop.md",
-      "sourceFileName": "stitch-shop.md",
+      "sourceFilePath": "projects/airbnb-clone.md",
+      "sourceFileName": "airbnb-clone.md",
       "sourceFileDir": "projects",
       "contentType": "markdown",
-      "flattenedPath": "projects/stitch-shop"
+      "flattenedPath": "projects/airbnb-clone"
     },
     "type": "Project",
-    "id": "stitch-shop"
+    "id": "airbnb-clone"
+  },
+  {
+    "title": "Clean UI",
+    "description": "A Practise Project",
+    "highlight": false,
+    "featured": true,
+    "stacks": [
+      "nextjs",
+      "chakra-ui"
+    ],
+    "projectLink": "https://assignment-iota-sooty.vercel.app/",
+    "thumbnail": "/screen3.png",
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "projects/clean-ui.md",
+    "_raw": {
+      "sourceFilePath": "projects/clean-ui.md",
+      "sourceFileName": "clean-ui.md",
+      "sourceFileDir": "projects",
+      "contentType": "markdown",
+      "flattenedPath": "projects/clean-ui"
+    },
+    "type": "Project",
+    "id": "clean-ui"
+  },
+  {
+    "title": "Custom Linktree",
+    "description": "A Custom Linktree",
+    "highlight": false,
+    "featured": true,
+    "stacks": [
+      "nextjs",
+      "framer"
+    ],
+    "projectLink": "https://custom-linktree.vercel.app/",
+    "thumbnail": "",
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "projects/custom-linktree.md",
+    "_raw": {
+      "sourceFilePath": "projects/custom-linktree.md",
+      "sourceFileName": "custom-linktree.md",
+      "sourceFileDir": "projects",
+      "contentType": "markdown",
+      "flattenedPath": "projects/custom-linktree"
+    },
+    "type": "Project",
+    "id": "custom-linktree"
   },
   {
     "title": "medium-blog",
     "description": "Clone site of medium blog site",
     "highlight": true,
     "featured": true,
-    "stacks": ["nextjs", "material-ui", "typescript"],
+    "stacks": [
+      "nextjs",
+      "tailwindcss"
+    ],
     "projectLink": "https://medium-blog-sanity-clone.vercel.app/",
     "thumbnail": "/screen2.png",
     "body": {
@@ -46,26 +104,29 @@
     "id": "medium-blog"
   },
   {
-    "title": "Clean UI",
-    "description": "A Practise Project",
+    "title": "stitchshop",
+    "description": "A fully functional full stack ecommerce site",
     "highlight": true,
     "featured": true,
-    "stacks": ["nextjs", "typescript", "chakra-ui"],
-    "projectLink": "https://assignment-iota-sooty.vercel.app/",
-    "thumbnail": "/screen3.png",
+    "stacks": [
+      "react",
+      "material-ui"
+    ],
+    "projectLink": "https://stitch-shop.vercel.app/",
+    "thumbnail": "/screen.png",
     "body": {
       "raw": "",
       "html": ""
     },
-    "_id": "projects/airbnb-clone.md",
+    "_id": "projects/stitch-shop.md",
     "_raw": {
-      "sourceFilePath": "projects/airbnb-clone.md",
-      "sourceFileName": "airbnb-clone.md",
+      "sourceFilePath": "projects/stitch-shop.md",
+      "sourceFileName": "stitch-shop.md",
       "sourceFileDir": "projects",
       "contentType": "markdown",
-      "flattenedPath": "projects/airbnb-clone"
+      "flattenedPath": "projects/stitch-shop"
     },
     "type": "Project",
-    "id": "airbnb-clone"
+    "id": "stitch-shop"
   }
 ]

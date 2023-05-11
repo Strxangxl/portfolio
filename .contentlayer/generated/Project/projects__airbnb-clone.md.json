@@ -1,15 +1,14 @@
 {
-  "title": "Clean UI",
-  "description": "A Practise Project",
-  "highlight": true,
+  "title": "Airbnb Clone",
+  "description": "Airbnb Clone",
+  "highlight": false,
   "featured": true,
   "stacks": [
     "nextjs",
-    "typescript",
-    "chakra-ui"
+    "tailwindcss"
   ],
-  "projectLink": "https://assignment-iota-sooty.vercel.app/",
-  "thumbnail": "/screen3.png",
+  "projectLink": "https://airbnb-clone-two-mauve.vercel.app/",
+  "thumbnail": "/screen4.png",
   "body": {
     "raw": "",
     "html": ""

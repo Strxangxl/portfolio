@@ -1,0 +1,26 @@
+{
+  "title": "Clean UI",
+  "description": "A Practise Project",
+  "highlight": false,
+  "featured": true,
+  "stacks": [
+    "nextjs",
+    "chakra-ui"
+  ],
+  "projectLink": "https://assignment-iota-sooty.vercel.app/",
+  "thumbnail": "/screen3.png",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "projects/clean-ui.md",
+  "_raw": {
+    "sourceFilePath": "projects/clean-ui.md",
+    "sourceFileName": "clean-ui.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/clean-ui"
+  },
+  "type": "Project",
+  "id": "clean-ui"
+}

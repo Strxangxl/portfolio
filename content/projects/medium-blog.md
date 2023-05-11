@@ -7,6 +7,5 @@ highlight: true
 featured: true
 stacks:
   - nextjs
-  - material-ui
-  - typescript
+  - tailwindcss
 ---

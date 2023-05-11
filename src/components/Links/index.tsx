@@ -2,7 +2,6 @@ import Head from "next/head";
 
 import MotionBox from "@/components/motion/MotionBox";
 import MotionFlex from "@/components/motion/MotionFlex";
-
 import socialLinks from "../../types/constants";
 import MotionLink from "../motion/MotionLink";
 

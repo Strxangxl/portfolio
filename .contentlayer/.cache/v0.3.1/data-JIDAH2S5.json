@@ -2,17 +2,16 @@
   "cacheItemsMap": {
     "projects/airbnb-clone.md": {
       "document": {
-        "title": "Clean UI",
-        "description": "A Practise Project",
-        "highlight": true,
+        "title": "Airbnb Clone",
+        "description": "Airbnb Clone",
+        "highlight": false,
         "featured": true,
         "stacks": [
           "nextjs",
-          "typescript",
-          "chakra-ui"
+          "tailwindcss"
         ],
-        "projectLink": "https://assignment-iota-sooty.vercel.app/",
-        "thumbnail": "/screen3.png",
+        "projectLink": "https://airbnb-clone-two-mauve.vercel.app/",
+        "thumbnail": "/screen4.png",
         "body": {
           "raw": "",
           "html": ""
@@ -28,7 +27,69 @@
         "type": "Project",
         "id": "airbnb-clone"
       },
-      "documentHash": "1683735963346",
+      "documentHash": "1683812376935",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/clean-ui.md": {
+      "document": {
+        "title": "Clean UI",
+        "description": "A Practise Project",
+        "highlight": false,
+        "featured": true,
+        "stacks": [
+          "nextjs",
+          "chakra-ui"
+        ],
+        "projectLink": "https://assignment-iota-sooty.vercel.app/",
+        "thumbnail": "/screen3.png",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "projects/clean-ui.md",
+        "_raw": {
+          "sourceFilePath": "projects/clean-ui.md",
+          "sourceFileName": "clean-ui.md",
+          "sourceFileDir": "projects",
+          "contentType": "markdown",
+          "flattenedPath": "projects/clean-ui"
+        },
+        "type": "Project",
+        "id": "clean-ui"
+      },
+      "documentHash": "1683810245389",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/custom-linktree.md": {
+      "document": {
+        "title": "Custom Linktree",
+        "description": "A Custom Linktree",
+        "highlight": false,
+        "featured": true,
+        "stacks": [
+          "nextjs",
+          "framer"
+        ],
+        "projectLink": "https://custom-linktree.vercel.app/",
+        "thumbnail": "",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "projects/custom-linktree.md",
+        "_raw": {
+          "sourceFilePath": "projects/custom-linktree.md",
+          "sourceFileName": "custom-linktree.md",
+          "sourceFileDir": "projects",
+          "contentType": "markdown",
+          "flattenedPath": "projects/custom-linktree"
+        },
+        "type": "Project",
+        "id": "custom-linktree"
+      },
+      "documentHash": "1683813056800",
       "hasWarnings": false,
       "documentTypeName": "Project"
     },
@@ -40,8 +101,7 @@
         "featured": true,
         "stacks": [
           "nextjs",
-          "material-ui",
-          "typescript"
+          "tailwindcss"
         ],
         "projectLink": "https://medium-blog-sanity-clone.vercel.app/",
         "thumbnail": "/screen2.png",
@@ -60,7 +120,7 @@
         "type": "Project",
         "id": "medium-blog"
       },
-      "documentHash": "1681562381084",
+      "documentHash": "1683810316283",
       "hasWarnings": false,
       "documentTypeName": "Project"
     },

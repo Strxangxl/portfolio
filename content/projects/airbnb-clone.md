@@ -1,12 +1,11 @@
 ---
-title: Clean UI
-projectLink: https://assignment-iota-sooty.vercel.app/
-description: "A Practise Project"
-thumbnail: "/screen3.png"
-highlight: true
+title: Airbnb Clone
+projectLink: https://airbnb-clone-two-mauve.vercel.app/
+description: "Airbnb Clone"
+thumbnail: "/screen4.png"
+highlight: false
 featured: true
 stacks:
   - nextjs
-  - typescript
-  - chakra-ui
+  - tailwindcss
 ---

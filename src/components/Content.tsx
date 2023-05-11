@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import {
   Box,
   Flex,
@@ -45,6 +46,25 @@ const ProjectDetailContent = ({
             </Heading>
             <Text fontSize="sm">{description}</Text>
           </Box>
+
+          {stacks && (
+            <Flex marginTop={11} alignItems="center" opacity="0.6">
+              {stacks.map((stack) => (
+                <Box
+                  marginRight={3}
+                  key={stack}
+                  style={{ filter: 'drop-shadow(0 0 12px rgb(98, 114, 164))' }}
+                >
+                  <Image
+                    width={25}
+                    height={25}
+                    src={`/stacks_logo/${colorMode}/${stack}.svg`}
+                    alt={stack}
+                  />
+                </Box>
+              ))}
+            </Flex>
+          )}
         </Flex>
       </Flex>
     </Box>
