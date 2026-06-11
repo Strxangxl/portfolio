@@ -10,16 +10,20 @@ const Content = () => {
 
   return (
     <>
-      <Heading size="lg" marginTop={10}>Yo, how are you?</Heading>
+      <Heading size="lg" marginTop={10}>
+        Hello, how are you?
+      </Heading>
       <Text {...{ ...textProps, textColor }}>
-        Hi, I&apos;m Ratan, a junior frontend developer currently seeking
-        full-time opportunities. I'm always learning and striving to improve.
-        Let's connect!
+        I'm Ratan, a Frontend Developer based in Pune, India. I specialize in
+        engineering scalable web applications using React, Next.js, and
+        TypeScript, with a sharp focus on performance optimization & clean
+        component design.
       </Text>
 
       <Text {...{ ...textProps, textColor }}>
-        Besides work, I enjoy reading and staying up-to-date with the latest in
-        technology and design
+        My experience ranges from building full-stack marketplaces with the MERN
+        stack to contributing to major open-source UI infrastructure like
+        Rocket.Chat. Feel free to reach out via email or LinkedIn below.
       </Text>
     </>
   );

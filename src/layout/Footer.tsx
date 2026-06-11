@@ -6,7 +6,7 @@ const Footer = () => {
       <Divider />
 
       <Text fontSize={["xs", "sm"]}>
-        &copy; 2023 - {new Date().getFullYear() + 1}{" "}
+        &copy; 2023 - {new Date().getFullYear()}{" "}
         <Link
           href="https://github.com/Strxangxl"
           target="_blank"

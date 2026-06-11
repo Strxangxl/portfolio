@@ -9,11 +9,11 @@ const HeroSection = () => {
         alignSelf={["none", "center"]}
       >
         <Heading as="h1" size="xl" paddingBottom={11}>
-          Yo! I&apos;m Ratan
+          Ratandeep Singh
         </Heading>
         <Text>
-          Crafting code, one song at a time. Constantly learning, growing, and
-          improving
+          Frontend Developer based in Pune, building scalable web applications
+          with the React ecosystem.
         </Text>
       </Box>
     </Box>

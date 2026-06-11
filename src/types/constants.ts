@@ -21,7 +21,7 @@ const socialLinks: linkProps[] = [
   },
   {
     name: "LinkedIn",
-    url: "https://www.linkedin.com/in/ratandeep-singh-a539681b0/",
+    url: "https://www.linkedin.com/in/ratandeep1509/",
     icon: FaLinkedin,
   },
   {
@@ -36,7 +36,7 @@ const socialLinks: linkProps[] = [
   },
   {
     name: "e-mail",
-    url: "mailto:hello@strxangxl?cc=chaddharatandeepsingh2345@gmail.com",
+    url: "mailto:hello@strxangxl?cc=singhratandeep2345@gmail.com",
     icon: FaEnvelope,
   },
 ];
