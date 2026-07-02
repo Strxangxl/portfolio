@@ -1,65 +1,73 @@
-import Image from "next/image";
+import React from 'react';
+import Link from 'next/link';
+import { ArrowRight } from 'lucide-react';
 
-export default function Home() {
+const projects = [
+  {
+    title: "StitchShop v2",
+    image: "/stitchshopv2.png",
+    link: "https://stitchshop-v2.vercel.app/"
+  },
+  {
+    title: "Clean UI",
+    image: "/cleanui.png",
+    link: "https://assignment-strxangxl.vercel.app/"
+  }
+];
+
+export default function HomePage() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.js file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+    <main className="space-y-24">
+      <section className="space-y-4 max-w-2xl py-12">
+        <h2 className="text-4xl font-extrabold tracking-tight text-zinc-900 dark:text-zinc-100 sm:text-5xl">
+          Hello! I'm Ratan
+        </h2>
+        <p className="text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
+          Frontend Engineer specializing in building scalable web architectures with React, Next.js, and JavaScript. Active open-source contributor to Rocket.Chat and creator of full-stack product ecosystems. Based in Pune.
+        </p>
+      </section>
+
+      <section className="space-y-8">
+        <h3 className="text-2xl font-bold tracking-tight text-zinc-900 dark:text-zinc-200">
+          Projects
+        </h3>
+
+        <div className="grid gap-6 sm:grid-cols-2">
+          {projects.map((project, index) => (
+            /* Changed from static div layout to a fully wrapper Link tag */
+            <Link
+              href={project.link}
+              key={index}
+              target="_blank" // Opens your external project/GitHub link in a new tab
+              rel="noopener noreferrer"
+              className="group relative block aspect-[16/9] overflow-hidden rounded-2xl bg-zinc-100 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800"
             >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+              <img
+                src={project.image}
+                alt={project.title}
+                className="h-full w-full object-cover opacity-90 dark:opacity-80 group-hover:scale-[1.02] transition duration-300"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+              <div className="absolute bottom-4 left-5">
+                <h4 className="text-lg font-bold text-white tracking-wide">
+                  {project.title}
+                </h4>
+              </div>
+            </Link>
+          ))}
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+
+        <div className="pt-2">
+          {/* Fixed: Point this link to your local internal sub-route */}
+          <Link
+            href="/projects"
+            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-950 text-sm font-semibold text-zinc-800 dark:text-zinc-200 hover:border-zinc-300 dark:hover:border-zinc-700 hover:text-black dark:hover:text-white transition"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+            view all projects
+            <ArrowRight className="w-4 h-4" />
+          </Link>
         </div>
-      </main>
-    </div>
+      </section>
+    </main>
   );
 }

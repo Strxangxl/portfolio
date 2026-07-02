@@ -1,26 +1,27 @@
 @import "tailwindcss";
 
+/* 1. Map the built-in dark utility to the .dark class on the <html> element */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* 2. Soft Rose Pink Theme Configuration for Light Mode */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #fff5f5; /* Soft, muted rose pink background */
+  --foreground: #2d1e1e; /* Deep berry-tinted charcoal for readable contrast */
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* Deep Zinc Dark Mode Configuration */
+html.dark {
+  --background: #09090b; /* Zinc 950 */
+  --foreground: #fafafa; /* Zinc 50 */
+  color-scheme: dark;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* 3. Apply the variables to your layout */
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
 }
