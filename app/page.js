@@ -9,9 +9,9 @@ const projects = [
     link: "https://stitchshop-v2.vercel.app/"
   },
   {
-    title: "Clean UI",
-    image: "/cleanui.png",
-    link: "https://assignment-strxangxl.vercel.app/"
+    title: "Medium Sanity Clone",
+    image: "/medium.png",
+    link: "https://medium-blog-sanity-clone.vercel.app/"
   }
 ];
 
@@ -23,7 +23,7 @@ export default function HomePage() {
           Hello! I'm Ratan
         </h2>
         <p className="text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
-          Frontend Engineer specializing in building scalable web architectures with React, Next.js, and JavaScript. Active open-source contributor to Rocket.Chat and creator of full-stack product ecosystems. Based in Pune.
+          Frontend Developer building React and Next.js applications. Open source contributor to Rocket.Chat and OpenELIS. Based in Pune.
         </p>
       </section>
 
@@ -34,20 +34,19 @@ export default function HomePage() {
 
         <div className="grid gap-6 sm:grid-cols-2">
           {projects.map((project, index) => (
-            /* Changed from static div layout to a fully wrapper Link tag */
             <Link
               href={project.link}
               key={index}
-              target="_blank" // Opens your external project/GitHub link in a new tab
+              target="_blank"
               rel="noopener noreferrer"
-              className="group relative block aspect-[16/9] overflow-hidden rounded-2xl bg-zinc-100 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800"
+              className="group relative block aspect-video overflow-hidden rounded-2xl bg-zinc-100 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800"
             >
               <img
                 src={project.image}
                 alt={project.title}
                 className="h-full w-full object-cover opacity-90 dark:opacity-80 group-hover:scale-[1.02] transition duration-300"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+              <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/20 to-transparent" />
               <div className="absolute bottom-4 left-5">
                 <h4 className="text-lg font-bold text-white tracking-wide">
                   {project.title}

@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
     <html lang="en" suppressHydrationWarning>
       <body className="antialiased">
         <ThemeProvider>
-          <div className="max-w-4xl mx-auto px-6 py-10 md:py-20 min-h-screen">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 py-8 md:py-20 min-h-screen">
             <Navbar />
             <div className="pt-12 md:pt-16">
               {children}

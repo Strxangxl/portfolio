@@ -1,7 +1,12 @@
 {
   "compilerOptions": {
+    "target": "ES2022",
+    "moduleResolution": "bundler",
+    "jsx": "preserve",
+    "checkJs": false,
     "paths": {
       "@/*": ["./*"]
     }
-  }
+  },
+  "exclude": ["node_modules", ".next"]
 }
