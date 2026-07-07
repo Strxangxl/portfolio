@@ -4,7 +4,7 @@ import { ThemeProvider } from "./providers";
 
 export const metadata = {
   title: "Ratan | Portfolio",
-  description: "Frontend Engineer Portfolio",
+  description: "Fullstack Engineer Portfolio",
 };
 
 export default function RootLayout({ children }) {

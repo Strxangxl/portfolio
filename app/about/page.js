@@ -9,10 +9,10 @@ export default function AboutPage() {
 
             <div className="space-y-4 text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
                 <p>
-                    Frontend Developer based in Pune. I build with React, Next.js, and TypeScript. Contributed to Rocket.Chat's EmbeddedChat and OpenELIS-Global-2 open source projects.
+                    Fullstack Developer based in Pune. I build with React, Next.js, and TypeScript. Contributed to Rocket.Chat's EmbeddedChat and OpenELIS-Global-2 open source projects.
                 </p>
                 <p>
-                    Looking for frontend roles at startups.
+                    Looking for fullstack roles at startups.
                 </p>
             </div>
 
