@@ -23,7 +23,7 @@ export default function HomePage() {
           Hello! I'm Ratan
         </h2>
         <p className="text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
-          Fullstack Developer building React and Next.js applications. Open source contributor to Rocket.Chat and OpenELIS. Based in Pune.
+          Fullstack Developer building React and Next.js applications. Open source contributor to Rocket.Chat. Based in Pune.
         </p>
       </section>
 

@@ -29,13 +29,6 @@ const allProjects = [
         tech: ["React.js", "JavaScript"],
         fullWidth: false,
         link: "https://github.com/RocketChat/EmbeddedChat"
-    },
-    {
-        title: "OpenELIS-Global-2",
-        description: "Added National ID validation and refactored emergency contact into a separate JPA entity.",
-        tech: ["React.js", "JavaScript", "Java"],
-        fullWidth: false,
-        link: "https://github.com/DIGI-UW/OpenELIS-Global-2"
     }
 ];
 
